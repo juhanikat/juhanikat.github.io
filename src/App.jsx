@@ -3,12 +3,22 @@ import { useState } from "react"
 import reactLogo from "./assets/react.svg"
 import viteLogo from "/vite.svg"
 import "./App.css"
+import naama from "../images/naama.png"
+import Info from "./components/Info"
+import { Fade } from "@mui/material"
+import { Box } from "@mui/material"
 
 function App() {
   const [count, setCount] = useState(0)
   return (
     <>
       <div>
+        <Box>
+          <Fade in={true} timeout={1000}>
+            <img src={naama}></img>
+          </Fade>
+        </Box>
+        <Info />
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
