@@ -1,7 +1,16 @@
 #root {
   max-width: 1280px;
   margin: auto;
-  padding: 2rem 0 10rem 0;;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.icons {
+  padding-right: 10px;
 }
 
 .info{
@@ -13,12 +22,29 @@
   margin: 2% 0 2% 0;
 }
 
+.pdfbuttons {
+  padding: 5% 2% 5% 2%;
+  text-align: center;
+}
+
+.pdfbuttons > * {
+  margin: 2% 1% 2% 1%;
+}
+
+.naama {
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 256px;
+}
 .about {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 0 2rem 0 2rem;
   text-align: center;
 }
 
@@ -29,10 +55,18 @@
 .NaamaAndInfo {
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
+  margin-bottom: 30vh;
   gap: 50px;
 
 }
 
 .introduction {
   flex-grow: 1;
+  width: 50%;
+  min-width: 50%;
+}
+
+.introduction > p {
+  background-color: rgb(31, 30, 30);
 }

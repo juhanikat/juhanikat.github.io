@@ -1,18 +1,23 @@
 import React from "react"
 import CVEnglish from "../pdfs/juhani_kataja_cv_english.pdf"
 import CVFinnish from "../pdfs/juhani_kataja_cv_finnish.pdf"
+import { Paper } from "@mui/material"
+import { Fade } from "@mui/material"
 
 const PdfButtons = () => {
   return (
-    <div>
-      My CVs:
-      <button onClick={() => window.open(CVEnglish, "_blank")}>
-        English CV
-      </button>
-      <button onClick={() => window.open(CVFinnish, "_blank")}>
-        Finnish CV
-      </button>
-    </div>
+    <Fade in={true} timeout={1000}>
+      <Paper className="pdfbuttons" elevation={3}>
+        My CVs:
+        <br></br>
+        <button onClick={() => window.open(CVEnglish, "_blank")}>
+          English CV
+        </button>
+        <button onClick={() => window.open(CVFinnish, "_blank")}>
+          Finnish CV
+        </button>
+      </Paper>
+    </Fade>
   )
 }
 

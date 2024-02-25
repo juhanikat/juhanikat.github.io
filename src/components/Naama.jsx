@@ -5,7 +5,7 @@ import naama2 from "../../images/naama2.jpeg"
 
 const Naama = () => {
   return (
-    <Box>
+    <Box className="naama">
       <Fade in={true} timeout={1000}>
         <img className="portrait" width="256" src={naama2}></img>
       </Fade>
