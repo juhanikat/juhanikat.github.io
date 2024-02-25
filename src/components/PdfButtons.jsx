@@ -1,6 +1,6 @@
 import React from "react"
-import CVEnglish from "../pdfs/juhani_kataja_cv.pdf"
-import CVFinnish from "../pdfs/juhani_kataja_cv2.pdf"
+import CVEnglish from "../pdfs/juhani_kataja_cv_english.pdf"
+import CVFinnish from "../pdfs/juhani_kataja_cv_finnish.pdf"
 
 const PdfButtons = () => {
   return (
