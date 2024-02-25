@@ -15,5 +15,10 @@ module.exports = {
     sourceType: "module"
   },
   plugins: ["react"],
-  rules: {}
+  rules: {},
+  settings: {
+    "react": {
+      "version": "detect"
+    }
+  }
 }
