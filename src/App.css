@@ -61,6 +61,11 @@ img {
 
 }
 
+.modebuttonbox {
+  padding: 5% 2% 5% 2%;
+  text-align: center;
+}
+
 .introduction {
   flex-grow: 1;
   width: 50%;
@@ -68,5 +73,5 @@ img {
 }
 
 .introduction > p {
-  background-color: rgb(31, 30, 30);
+  background-color: rgb(56, 56, 56);
 }

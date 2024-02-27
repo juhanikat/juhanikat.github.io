@@ -14,7 +14,7 @@
 }
 
 .body-light {
-  background-image: linear-gradient(rgb(235, 235, 235), rgb(253, 236, 236));
+  background-image: linear-gradient(rgba(235, 235, 235, 0.95), rgb(225, 235, 235, 0.95));
 }
 
 .body-dark {
