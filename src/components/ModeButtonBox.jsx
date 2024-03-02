@@ -23,6 +23,7 @@ const ModeButtonBox = () => {
     <Fade in={true} timeout={1000}>
       <Paper className="modebuttonbox" elevation={3}>
         {modeButton}
+        <p>(Does not look good)</p>
       </Paper>
     </Fade>
   )

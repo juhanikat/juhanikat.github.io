@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 80rem;
   margin: auto;
   padding: 2rem 2rem 0 2rem;
 }
@@ -10,16 +10,17 @@
 }
 
 .icons {
+  display: inline;
   padding-right: 10px;
 }
 
-.info{
+.contact {
   padding: 5% 2% 5% 2%;
   text-align: center;
 }
 
-.info > * {
-  margin: 2% 0 2% 0;
+.contact > p {
+  margin: 5% 0 5% 0;
 }
 
 .pdfbuttons {
@@ -48,28 +49,54 @@ img {
   text-align: center;
 }
 
-.IntroAndInfo {
+.all-content {
   display: flex;
+  padding-bottom: 30vh;
 }
 
-.NaamaAndInfo {
+.intro-and-info {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
+}
+
+.intro-and-info > * {
+  flex: 1;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20vw;
+  flex-shrink: 0;
+  margin-left: 30px;
   margin-bottom: 30vh;
   gap: 50px;
-
 }
 
 .modebuttonbox {
-  padding: 5% 2% 5% 2%;
+  padding: 7% 2% 5% 2%;
   text-align: center;
 }
 
 .introduction {
-  flex-grow: 1;
-  width: 50%;
   min-width: 50%;
+  font-size: 18px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.info-box {
+  flex: 0 0 22rem;
+  padding: 2% 5% 0% 5%;
+
+}
+
+.info-box-hidden {
+  visibility: hidden;
 }
 
 .introduction > p {

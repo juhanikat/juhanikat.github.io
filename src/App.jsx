@@ -1,11 +1,12 @@
 import React, { useEffect } from "react"
 import "./App.css"
-import Info from "./components/Info"
 import PdfButtons from "./components/PdfButtons"
 import Introduction from "./components/Introduction"
 import About from "./components/About"
 import Naama from "./components/Naama"
 import ModeButtonBox from "./components/ModeButtonBox"
+import Contact from "./components/Contact"
+import Info from "./components/Info"
 
 function App() {
   useEffect(() => {
@@ -18,11 +19,14 @@ function App() {
 
   return (
     <div className="page-container">
-      <div className="IntroAndInfo">
-        <Introduction />
-        <div className="NaamaAndInfo">
-          <Naama />
+      <div className="all-content">
+        <div className="intro-and-info">
+          <Introduction />
           <Info />
+        </div>
+        <div className="side">
+          <Naama />
+          <Contact />
           <PdfButtons />
           <ModeButtonBox />
         </div>

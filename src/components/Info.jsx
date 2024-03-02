@@ -1,32 +1,52 @@
 import React from "react"
-import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid"
-import GitHubIcon from "@mui/icons-material/GitHub"
-import LinkedInIcon from "@mui/icons-material/LinkedIn"
-import { Email } from "@mui/icons-material"
 import { Paper } from "@mui/material"
 import { Fade } from "@mui/material"
+import SchoolIcon from "@mui/icons-material/School"
 
 const Info = () => {
   return (
-    <Fade in={true} timeout={1000}>
-      <Paper className="info" elevation={3}>
-        <LinkedInIcon className="icons"></LinkedInIcon>
-        <a
-          href="https://www.linkedin.com/in/juhani-kataja-1b211b2aa"
-          target="_blank"
-          rel="noreferrer"
-        >
-          www.linkedin.com/in/juhani-kataja-1b211b2aa
-        </a>
-        <br></br>
-        <GitHubIcon className="icons" />
-        <a href="https://github.com/juhanikat">https://github.com/juhanikat</a>
-        <br></br>
-        <PhoneAndroidIcon className="icons" /> +358 45 275 5102
-        <br></br>
-        <Email className="icons" /> juhani.kataja@gmail.com
-      </Paper>
-    </Fade>
+    <div className="info">
+      <Fade in={true} timeout={1000}>
+        <Paper className="info-box" elevation={3}>
+          <h2>Studies</h2>
+          <h3>
+            <SchoolIcon className="icons" />
+            {"University of Helsinki, Computer Science, Bachelor's Degree"}
+          </h3>
+          <p>2021-2026</p>
+        </Paper>
+      </Fade>
+      <Fade in={true} timeout={1000}>
+        <Paper className="info-box-hidden" elevation={3}>
+          <h2>Studies</h2>
+          <h3>
+            <SchoolIcon className="icons" />
+            {"University of Helsinki, Computer Science, Bachelor's Degree"}
+          </h3>
+          <p>2021-2026</p>
+        </Paper>
+      </Fade>
+      <Fade in={true} timeout={1000}>
+        <Paper className="info-box-hidden" elevation={3}>
+          <h2>Studies</h2>
+          <h3>
+            <SchoolIcon className="icons" />
+            {"University of Helsinki, Computer Science, Bachelor's Degree"}
+          </h3>
+          <p>2021-2026</p>
+        </Paper>
+      </Fade>
+      <Fade in={true} timeout={1000}>
+        <Paper className="info-box-hidden" elevation={3}>
+          <h2>Studies</h2>
+          <h3>
+            <SchoolIcon className="icons" />
+            {"University of Helsinki, Computer Science, Bachelor's Degree"}
+          </h3>
+          <p>2021-2026</p>
+        </Paper>
+      </Fade>
+    </div>
   )
 }
 
