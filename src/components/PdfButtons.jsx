@@ -1,6 +1,6 @@
 import React from "react"
-import CVEnglish from "../pdfs/juhani_kataja_cv_english.pdf"
-import CVFinnish from "../pdfs/juhani_kataja_cv_finnish.pdf"
+import CVEnglish from "../pdfs/Juhani Kataja CV English.pdf"
+import CVFinnish from "../pdfs/Juhani Kataja CV Finnish.pdf"
 import { Paper } from "@mui/material"
 import { Fade } from "@mui/material"
 
